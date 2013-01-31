@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>1</title>
+</head>
+ 
+<body>
+<script language=JavaScript>
+	var boolean1=true;
+	var boolean2=false;
+	var txt1="hola";
+	var txt2="adios";
+	var num1=5;
+	var num2=2;
+	
+	if(txt1.length > txt2.length){
+		alert(txt1 + " es mayor que " + txt2);
+	}
+	else if(txt2.length > txt1.length){
+		alert(txt2 + " es mayor que " + txt1);
+	}
+	
+	var verdadero = boolean1 || boolean2;
+	alert(verdadero);
+	
+	var falso = boolean1 && boolean2;
+	alert(falso);
+	
+	alert("5 + 2 = " + (num1+num2)*1 );
+	alert("5 - 2 = " + (num1-num2)*1 );
+	alert("5 * 2 = " + (num1*num2)*1 );
+	alert("5 / 2 = " + (num1/num2)*1 );
+	alert("5 % 2 = " + (num1%num2)*1 );
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>2</title>
+</head>
+ 
+<body>
+<script language=JavaScript>
+	var num1 = prompt("Inserta el primer numero")*1;
+	var num2 = prompt("Introduce el segundo numero")*1;
+	var num3 = prompt("Introduce el tercer numero")*1;
+	
+	if(num1<num2 && num1< num3 && num2<num3) {
+		document.write(num1 + " es menor que " + num2 +  ", el cual es menor que " + num3);
+	}
+	else if(num2<num1 && num2<num3 && num1<num3){
+		document.write(num2 + " es menor que " + num1 +  ", el cual es menor que " + num3);
+	}
+	else if(num3<num1 && num3<num2 && num2<num1){
+		document.write(num3 + " es menor que " + num2 +  ", el cual es menor que " + num1);
+	}
+	else if(num2<num1 && num2<num3 && num3<num1){
+		document.write(num2 + " es menor que " + num3 +  ", el cual es menor que " + num1);
+	}
+	else if(num1<num2 && num1< num3 && num2>num3) {
+		document.write(num1 + " es menor que " + num3 +  ", el cual es menor que " + num2);
+	}
+	else if(num2<num1 && num1<num3 && num3<num2) {
+		document.write(num2 + " es menor que " + num1 +  ", el cual es menor que " + num3);
+	}
+	else if(num3<num1 && num3<num2 && num1<num2){
+		document.write(num3 + " es menor que " + num1 +  ", el cual es menor que " + num2);
+	}
+	
+  </script>
+</body>
+</html>
